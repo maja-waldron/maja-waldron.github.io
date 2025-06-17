@@ -1,7 +1,10 @@
 ---
-layout: page
-title: About Me
-permalink: /about/
+title: "About Me"
+permalink: /
+author_profile: true
+redirect_from: 
+   - /about/
+   - /about.html
 ---
 
 I am an Assistant Professor of Statistics at the University of Wisconsin–Madison, where I work at the intersection of machine learning, probabilistic modeling, and AI. My research focuses on developing reliable and efficient learning algorithms, with an emphasis on scientific and medical applications.
