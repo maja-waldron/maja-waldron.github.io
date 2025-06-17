@@ -26,20 +26,27 @@ import re
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
-    "proceeding": {
-        "file" : "proceedings.bib",
-        "venuekey": "booktitle",
-        "venue-pretext": "In the proceedings of ",
+    "publications": {
+        "file" : "../_publications/majas_refs_June2025.bib",
+        "venuekey": "",
+        "venue-pretext": "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
-        
-    },
-    "journal":{
-        "file": "pubs.bib",
-        "venuekey" : "journal",
-        "venue-pretext" : "",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+#    },
+#    "proceeding": {
+#        "file" : "proceedings.bib",
+#        "venuekey": "booktitle",
+#        "venue-pretext": "In the proceedings of ",
+#        "collection" : {"name":"publications",
+#                        "permalink":"/publication/"}
+#        
+#    },
+#    "journal":{
+#        "file": "pubs.bib",
+#        "venuekey" : "journal",
+#        "venue-pretext" : "",
+#        "collection" : {"name":"publications",
+#                        "permalink":"/publication/"}
     } 
 }
 
@@ -100,8 +107,10 @@ for pubsource in publist:
 
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
-
+                try:
+                    citation += f" {author.first_names[0]} {author.last_names[0]}, "
+                except IndexError:
+                    citation += " [Unknown Author], "
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
 
