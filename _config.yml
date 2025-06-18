@@ -13,7 +13,7 @@ title                    : "Maja Waldron"
 title_separator          : "-"
 name                     : &name "Maja Waldron"
 description              : &description "I am an AI researcher and Assistant Professor of Statistics at the University of Wisconsin - Madison."
-url                      : https://mariru.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://maja-waldron.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -31,7 +31,7 @@ author:
   position         : "Assistant Professor of Statistics"
   interests        : "AI, Machine Learning, Statistics, Data Science" # comma-separated list of interests
   uri              : # URL
-  email            : "first dot last at wisc dot edu" # email address, e.g. "
+  email            : "maja.waldron@wisc.edu" # email address, e.g. "
 
   # Academic websites
   academia         : # URL
