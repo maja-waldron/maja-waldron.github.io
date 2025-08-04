@@ -6,13 +6,19 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile. I have previously been publishing under my maiden name Rudolph.</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+{% for pub in site.publications reversed %}
+  <div class="pub-entry">
+    <strong>{{ pub.title }}</strong><br>
+    {% if pub.authors %}{{ pub.authors }}.<br>{% endif %}
+    {% if pub.venue %}<em>{{ pub.venue }}</em>, {% endif %}
+    {% if pub.date %}{{ pub.date | date: "%Y" }}{% endif %}
+  </div>
+  <br>
 {% endfor %}
 
 <!-- New style rendering if publication categories are defined -->
