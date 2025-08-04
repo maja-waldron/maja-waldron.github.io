@@ -12,5 +12,11 @@ author_profile: true
 {% endif %}
 
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  <div class="talk-entry">
+    <strong>{{ post.title }}</strong><br>
+    {% if post.type %}{{ post.type }}, {% endif %}
+    {% if post.venue %}{{ post.venue }}, {% endif %}
+    {% if post.location %}{{ post.location }}, {% endif %}
+    {{ post.date | date: "%Y-%m-%d" }}
+  </div>
 {% endfor %}
