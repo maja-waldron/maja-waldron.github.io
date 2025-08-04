@@ -17,6 +17,7 @@ author_profile: true
     {% if post.type %}{{ post.type }}, {% endif %}
     {% if post.venue %}{{ post.venue }}, {% endif %}
     {% if post.location %}{{ post.location }}, {% endif %}
-    {{ post.date | date: "%Y-%m-%d" }}
+    {{ post.date | date: "%B %Y" }}
   </div>
+  <br>
 {% endfor %}
