@@ -14,10 +14,7 @@ author_profile: true
 {% for pub in site.publications reversed %}
   <br>
   <div class="pub-entry">
-    <strong>{{ pub.title }}.</strong><br>
-    {% if pub.citation %}{{ pub.citation }}.<br>{% endif %}
-    {% if pub.venue %}<em>{{ pub.venue }}</em>.{% endif %}
-    <!--{% if pub.date %}{{ pub.date | date: "%Y" }}{% endif %}-->
+    {% if pub.citation %}{{ pub.citation }}.{% endif %}
   </div>
 {% endfor %}
 
