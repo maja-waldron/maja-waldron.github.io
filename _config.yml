@@ -350,7 +350,6 @@ compress_html:
 scholar:
   source: _bibliography
   bibliography: maja2025.bib
-  bibliography_template: bib
   style: apa
   locale: en
   sort_by: year
