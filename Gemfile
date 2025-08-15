@@ -10,5 +10,4 @@ group :jekyll_plugins do
   gem "jekyll-scholar", "~> 7.0"
 end
 
-gem 'github-pages'
 gem 'connection_pool', '2.5.0'
