@@ -25,13 +25,10 @@ Topics
 
 We set the stage for the seminar by defining what foundation models are (e.g., LLMs, VLMs, diffusion models), how they differ from traditional statistical models, and why their empirical power raises new theoretical and practical questions. We also discuss the role of statistical thinking in evaluating and repurposing these models for scientific inference, decision-making, and societal impact.
 
-https://arxiv.org/abs/2502.17814
+- [An Overview of Large Language Models for Statisticians](https://arxiv.org/abs/2502.17814)
+- [Do Large Language Models (Really) Need Statistical Foundations?](https://arxiv.org/abs/2505.19145)
+- [Position: Bayesian Deep Learning is Needed in the Age of Large-Scale AI](https://arxiv.org/abs/2402.00809)
 
-https://arxiv.org/abs/2505.19145
-
-https://arxiv.org/abs/2402.00809
-
----
 
 ### **Topic 2: Statistical Evaluation of Foundation Models**
 
@@ -69,9 +66,9 @@ https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00410/107384/Measuring-an
 
 https://arxiv.org/abs/2310.03957
 
-https://proceedings.mlr.press/v202/kirchenbauer23a.html?utm_source=chatgpt.com
+https://proceedings.mlr.press/v202/kirchenbauer23a.html
 
-https://arxiv.org/abs/2404.01245?utm_source=chatgpt.com
+https://arxiv.org/abs/2404.01245
 
 ---
 
@@ -125,7 +122,7 @@ https://arxiv.org/abs/2301.09633
 
 https://arxiv.org/abs/2304.07438
 
- https://arxiv.org/abs/2112.10510
+https://arxiv.org/abs/2112.10510
 
 https://proceedings.mlr.press/v202/nagler23a
 
@@ -135,6 +132,3 @@ https://arxiv.org/abs/2505.11325
 
 https://arxiv.org/abs/2404.09636
 
-References
-======
-coming soon.
