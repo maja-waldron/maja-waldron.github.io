@@ -25,6 +25,7 @@ Topics
 
 We set the stage for the seminar by defining what foundation models are (e.g., LLMs, VLMs, diffusion models), how they differ from traditional statistical models, and why their empirical power raises new theoretical and practical questions. We also discuss the role of statistical thinking in evaluating and repurposing these models for scientific inference, decision-making, and societal impact.
 
+**Potential Readings:**
 - [An Overview of Large Language Models for Statisticians](https://arxiv.org/abs/2502.17814)
 - [Do Large Language Models (Really) Need Statistical Foundations?](https://arxiv.org/abs/2505.19145)
 - [Position: Bayesian Deep Learning is Needed in the Age of Large-Scale AI](https://arxiv.org/abs/2402.00809)
@@ -38,37 +39,22 @@ Foundation models are often evaluated in terms of benchmarks or task accuracy—
 
 We might also read papers about watermarking. Watermarking straddles the line between statistical evaluation of foundation models and intervention: Statistical signals can be embedded into model outputs—intentionally or inadvertently. Such signals can be detected, analyzed, and potentially used for provenance, accountability, and robustness. 
 
-https://aclanthology.org/2020.emnlp-main.21/
-
-https://arxiv.org/abs/2207.07411
-
-https://arxiv.org/html/2312.04021v1
-
-https://aclanthology.org/2023.mmnlg-1.1/
-
-https://arxiv.org/abs/2306.13063
-
-https://arxiv.org/abs/2307.10236
-
-https://arxiv.org/abs/2402.14418
-
-https://arxiv.org/abs/2506.13831
-
-https://arxiv.org/abs/2405.02917
-
-https://arxiv.org/abs/1906.05664
-
-https://arxiv.org/abs/2312.15576v1
-
-https://arxiv.org/abs/2411.02603
-
-https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00410/107384/Measuring-and-Improving-Consistency-in-Pretrained
-
-https://arxiv.org/abs/2310.03957
-
-https://proceedings.mlr.press/v202/kirchenbauer23a.html
-
-https://arxiv.org/abs/2404.01245
+**Potential Readings:**
+- [Calibration, Entropy Rates, and Memory in Language Models](https://arxiv.org/abs/1906.05664)
+- [Calibration of Pre-trained Transformers](https://aclanthology.org/2020.emnlp-main.21/)
+- [An Explanation of In-context Learning as Implicit Bayesian Inference](https://arxiv.org/abs/2111.02080)
+- [Plex: Towards Reliability using Pretrained Large Model Extensions](https://arxiv.org/abs/2207.07411)
+- [A Study on the Calibration of In-context Learning](https://arxiv.org/html/2312.04021v1)
+- [Confidently Wrong: Exploring the Calibration and Expression of (Un)Certainty of Large Language Models in a Multilingual Setting](https://aclanthology.org/2023.mmnlg-1.1/)
+- [Can LLMs Express Their Uncertainty?](https://arxiv.org/abs/2306.13063)
+- [Look Before You Leap: An Exploratory Study of Uncertainty Analysis for Large Language Models](https://arxiv.org/abs/2307.10236)
+- [Uncertainty-Aware Evaluation for Vision-Language Models](https://arxiv.org/abs/2402.14418)
+- [Quantifying Structure in CLIP Embeddings](https://arxiv.org/abs/2506.13831)
+- [FactTest: Factuality Testing in Large Language Models with Finite-Sample and Distribution-Free Guarantees](https://arxiv.org/abs/2411.02603)
+- [Measuring and Improving Consistency in Pretrained Language Models](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00410/107384/Measuring-and-Improving-Consistency-in-Pretrained_)
+- [Understanding prompt engineering may not require rethinking generalization](https://arxiv.org/abs/2310.03957)
+- [A Watermark for Large Language Models](https://proceedings.mlr.press/v202/kirchenbauer23a.html)
+- [A Statistical Framework of Watermarks for Large Language Models: Pivot, Detection Efficiency and Optimal Rules](https://arxiv.org/abs/2404.01245)
 
 ---
 
@@ -78,37 +64,24 @@ https://arxiv.org/abs/2404.01245
 
 When foundation models are deployed in high-stakes settings, uncertainty is as important as accuracy. This module focuses on statistical techniques for quantifying predictive uncertainty—including conformal prediction, deep ensembles, Laplace approximations, and attention-based uncertainty metrics. We discuss both theoretical guarantees and empirical behavior under distribution shift.
 
-https://arxiv.org/abs/2107.07511
-
-https://arxiv.org/abs/1612.01474
-
-https://proceedings.neurips.cc/paper/2021/hash/a7c9585703d275249f30a088cebba0ad-Abstract.html
-
-https://aclanthology.org/2024.acl-long.276/
-
-https://arxiv.org/abs/2310.00035
-
-https://arxiv.org/abs/2308.13111
-
-https://proceedings.neurips.cc/paper_files/paper/2024/hash/7d53575463291ea6b5a23cf6e571f59b-Abstract-Conference.html
-
-https://openreview.net/forum?id=512IkGDqA8
-
-https://arxiv.org/abs/2502.20946
-
-https://arxiv.org/abs/2305.18404
-
-https://arxiv.org/abs/2305.02633
-
-https://openreview.net/forum?id=gENDUvkytD
-
-https://arxiv.org/abs/2312.17162
-
-https://arxiv.org/abs/2403.09869
-
-https://openreview.net/forum?id=37fM2QEBSE
-
----
+**Potential Readings:**
+- [Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles](https://arxiv.org/abs/1612.01474)
+- [LoRA Ensembles for Large Language Model Fine-Tuning](https://arxiv.org/abs/2310.00035)
+- [Bayesian Low-rank Adaptation for Large Language Models](https://arxiv.org/abs/2308.13111)
+- [BLoB: Bayesian Low-Rank Adaptation by Backpropagation for Large Language Models](https://proceedings.neurips.cc/paper_files/paper/2024/hash/7d53575463291ea6b5a23cf6e571f59b-Abstract-Conference.html)
+- [https://arxiv.org/abs/2111.02080](https://proceedings.neurips.cc/paper/2021/hash/a7c9585703d275249f30a088cebba0ad-Abstract.html)
+- [Shifting Attention to Relevance: Towards the Predictive Uncertainty Quantification of Free-Form Large Language Models](https://aclanthology.org/2024.acl-long.276/)
+- [Shedding Light on Large Generative Networks: Estimating Epistemic Uncertainty in Diffusion Models](https://openreview.net/forum?id=512IkGDqA8)
+- [Generative Uncertainty in Diffusion Models](https://arxiv.org/abs/2502.20946)
+- [BayesDiff: Estimating Pixel-wise Uncertainty in Diffusion via Bayesian Inference](https://arxiv.org/abs/2310.11142)
+- [A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification](https://arxiv.org/abs/2107.07511)
+- [Conformal Prediction with Large Language Models for Multi-Choice Question Answering](https://arxiv.org/abs/2305.18404)
+- [Conformal Nucleus Sampling](https://arxiv.org/abs/2305.02633)
+- [Prune 'n Predict: Optimizing LLM Decision-making with Conformal Prediction](https://openreview.net/forum?id=gENDUvkytD)
+- [Function-Space Regularization in Neural Network](https://arxiv.org/abs/2312.17162)
+- [Fine-Tuning with Uncertainty-Aware Priors Makes Vision and Language Foundation Models More Reliable](https://openreview.net/forum?id=37fM2QEBSE)
+- [Reducing LLM Hallucinations using epistemic neural networks](https://arxiv.org/abs/2312.15576v1)
+    
 
 ### **Topic 4: Foundation Models for Statistical Inference**
 
@@ -116,19 +89,13 @@ https://openreview.net/forum?id=37fM2QEBSE
 
 Beyond being objects of analysis, foundation models can act as tools in statistical workflows. This module explores how LLMs and generative models can assist in Bayesian inference, simulation-based inference (SBI), and prediction-powered inference. We consider the opportunities and pitfalls of using models as simulators, priors, or query engines in structured inference problems.
 
-https://arxiv.org/abs/2311.01453
-
-https://arxiv.org/abs/2301.09633
-
-https://arxiv.org/abs/2304.07438
-
-https://arxiv.org/abs/2112.10510
-
-https://proceedings.mlr.press/v202/nagler23a
-
-https://arxiv.org/abs/2501.16825
-
-https://arxiv.org/abs/2505.11325
-
-https://arxiv.org/abs/2404.09636
+**Potential Readings:**
+- [PPI++: Efficient Prediction-Powered Inference](https://arxiv.org/abs/2311.01453)
+- [Prediction-Powered Inference](https://arxiv.org/abs/2301.09633)
+- [Tractable Control for Autoregressive Language Generation](https://arxiv.org/abs/2304.07438)
+- [Transformers Can Do Bayesian Inference](https://arxiv.org/abs/2112.10510)
+- [Statistical Foundations of Prior-Data Fitted Networks](https://proceedings.mlr.press/v202/nagler23a)
+- [Can Transformers Learn Full Bayesian Inference in Context?](https://arxiv.org/abs/2501.16825)
+- [Uncertainty Quantification for Prior-Data Fitted Networks using Martingale Posteriors](https://arxiv.org/abs/2505.11325)
+- [All-in-one simulation-based inference](https://arxiv.org/abs/2404.09636)
 
