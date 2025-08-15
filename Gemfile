@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'webrick', '~> 1.8'
   gem "jekyll-scholar", "~> 7.0"
+  gem "jekyll-paginate", "~> 1.1"
 end
 
 gem 'connection_pool', '2.5.0'

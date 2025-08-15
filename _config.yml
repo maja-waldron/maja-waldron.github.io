@@ -297,7 +297,8 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+paginate: 10               # number of posts per page
+paginate_path: "/page:num" # optional; default is /page:num
 
 # Plugins
 plugins:
@@ -306,6 +307,7 @@ plugins:
   - jekyll-redirect-from
   - jemoji
   - jekyll-scholar
+  - jekyll-paginate
 
 # Mimic GitHub Pages with --safe
 whitelist:
